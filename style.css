@@ -1,0 +1,407 @@
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    list-style-type: none;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: #c7abab;
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone_numbers li::before,
+.phone_footer li::before {
+    content: none; 
+}
+
+.phone_numbers a, .phone_footer a {
+    color: #E0C3A1; 
+    text-decoration: none; 
+    list-style-type: none;
+    font-family: "Work Sans", sans-serif; 
+}
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    transition: .3s ease-in;
+    position: fixed;
+    z-index: 1;
+}
+
+.horizontal_line{
+    height: 0.1vw; 
+    width: 100%;
+    background-color: #E0C3A1;
+    position: absolute;  
+}
+
+/* .vertical_line{
+    display: flex;
+    height: 100%;
+    width: 2.5px;
+    background-color: #E0C3A1;
+    position: absolute;
+} */
+
+.container{
+    align-items: center;
+    display: flex;
+    transition: .3s ease-out;
+    justify-content: space-between;
+}
+
+.changeColor{
+    background-color: #15141D;
+}
+
+.logo_text{
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_header{
+    padding-right: 2%;
+}
+
+.text_header{
+    color: #E0C3A1;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 2.1vw;
+    display: flex;
+}
+
+.phone_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 4%;
+}
+
+.phone_logo{
+    display: flex;
+}
+
+.phone_numbers{
+    color: #E0C3A1;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 0.9vw;
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 1 auto;
+}
+
+.main_container{
+    min-width: 100%;
+}
+
+.bg_photo{
+    background-image: url(images/bg_photo.jpg);
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_text_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-bottom: 28%;
+}
+
+.main_text{
+    margin: 0;
+    font-size: 7vw;
+    color: #E0C3A1;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.secondary_text{
+    margin: 0;
+    font-size: 2.8vw;
+    color: #E0C3A1;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.agreement_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.title_agreement{
+    font-weight: 400;
+    font-size: 3vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: #1e1e1e;
+}
+
+footer{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.footer_container{
+    min-width: 100%;
+    height: 100%;
+    background-color: #15141D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_container{
+    display: flex;
+    padding-left: 4%;
+    flex-direction: column;
+    color: #E0C3A1;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    justify-content: center;
+    gap: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.footer_clock_phone_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.2vw;
+}
+
+.footer_clock{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_phone{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_adress{
+    display: flex;
+    align-items: center;
+}
+
+.dentist_text{
+    font-size: 2.8vw;
+    padding-left: 1%;
+}
+
+.numbers{
+    padding: 0;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers li a{
+    list-style-type: none;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.numbers li{
+    list-style-type: none;
+}
+
+.logo_clock{
+    padding-right: 2%;
+}
+
+.phone_container_footer{
+    padding-right: 2%;
+}
+
+.clock_text_footer{
+    display: flex;
+}
+
+.clock_text{
+
+}
+
+.adress{
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.footer_map{
+    width: 100%;
+    padding-left: 10%;
+}
+
+iframe{
+    filter: invert(100%);
+    width: 100%;
+    height: 100%;
+}
+
+.logo_header,
+.phone_logo,
+.logo_footer,
+.logo_clock,
+.phone_container_footer,
+.geo{
+    height: auto;
+    width: auto;
+}
+
+
+.logo_header_class{
+    width: 5vw;
+
+}
+
+.phone_header_class{
+    width: 1.7vw;
+}
+
+.logo_footer_class{
+    width: 7vw;
+}
+
+.clock_footer_class{
+    width: 3vw;
+}
+
+.phone_footer_class{
+    width: 2.5vw;
+}
+
+.geo_footer_class{
+    width: 3.5vw;
+}
+
+/* ________________________________________ */
+                /* agreement */
+.text_agreement{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: #1e1e1e;
+    font-size: 1.1vw;
+}
+
+.agreement_1_Tym{
+    text-align: right;
+    width: 100%;
+    justify-content: right;
+}
+
+.Tym_1{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.Tym_title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+
+.Tym_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title_agreement_3_Tym{
+    width: 80%;
+    text-align: left;
+}
+
+.between{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.Lev_1{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.agreement_1_Lev{
+    text-align: right;
+    width: 100%;
+    justify-content: right;
+}
+
+.Lev_title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+
+.Lev_2{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.agreement_3_Lev{
+    width: 80%;
+    text-align: left;
+}
+
