@@ -50,14 +50,6 @@ header{
     position: absolute;  
 }
 
-/* .vertical_line{
-    display: flex;
-    height: 100%;
-    width: 2.5px;
-    background-color: #E0C3A1;
-    position: absolute;
-} */
-
 .container{
     align-items: center;
     display: flex;
@@ -123,7 +115,9 @@ main{
 
 .bg_photo{
     background-image: url(images/bg_photo.jpg);
-    width: 100%;
+    min-width: 99vw;
+    height: 100vh;
+    background-position: center;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,8 +129,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 20%;
-    padding-bottom: 28%;
+    padding-top: 38vh;
 }
 
 .main_text{

@@ -1,128 +1,50 @@
-@media(max-width: 550px){
-    .bg_photo{
-        background-image: url(images/bg_photo_phone_550px.svg);
+@media(max-width: 1025px){
+    .text_header{
+        font-size: 2.3vw;
+    }
+    .phone_numbers{
+        font-size: 1.1vw;
+    }
+    .title_agreement{
+        font-size: 3.2vw;
     }
     
-}
-
-@media(max-width: 769px){
-    .bg_photo{
-        background-image: url(images/bg_photo_phone.svg);
-    }
-    .main_text_container{
-        display: flex;
-        padding-top: 37% !important;
-        padding-bottom: 40%;
-    }
-}
-
-@media(max-width:768px){
-    .text_agreement{
-        font-size: 1.9vw;
-    }
-    .Tym_title{
-        font-size: 2.3vw;
-    }
-    .Lev_title{
-        font-size: 2.3vw;
-    }
-}
-
-@media(max-width: 701px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 37% !important;
-        padding-bottom: 36%;
-    }
-}
-
-@media(max-width: 631px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 45% !important;
-        padding-bottom: 36%;
-    }
-    .text_agreement{
-        font-size: 2.3vw;
-    }
-    .Tym_title{
-        font-size: 2.8vw;
-    }
-    .Lev_title{
-        font-size: 2.8vw;
-    }
-}
-
-@media(max-width: 595px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 47% !important;
-        padding-bottom: 47%;
-    }
-}
-
-@media(max-width: 526px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 51% !important;
-        padding-bottom: 57%;
-    }
-    
-}
-
-@media(max-width: 467px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 58% !important;
-        padding-bottom: 60%;
-    }
-}
-
-@media(max-width: 426px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 55% !important;
-        padding-bottom: 65%;
-    }
-    .text_agreement{
-        font-size: 2.6vw;
-    }
-    .Tym_title{
-        font-size: 3.1vw;
-    }
-    .Lev_title{
-        font-size: 3.1vw;
-    }
-}
-
-@media(max-width: 376px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 56% !important;
-        padding-bottom: 70%;
-    }
-    .text_agreement{
+    .dentist_text{
         font-size: 3vw;
     }
-    .Tym_title{
-        font-size: 3.3vw;
-    }
-    .Lev_title{
-        font-size: 3.3vw;
-    }
-}
 
-@media(max-width: 321px) {
-    .main_text_container{
-        display: flex;
-        padding-top: 60% !important;
-        padding-bottom: 77%;
+    .clock_text{
+        font-size: 1.4vw;
     }
-}
-
-@media(min-width: 320px) {
-    .bg_photo{
-        background-image: url(images/background_photo.svg);
+    .numbers{
+        font-size: 1.4vw;
+    }
+    .adress{
+        font-size: 2.2vw;
+    }
+    /* icons */
+    .logo_header_class{
+        width: 5.2vw;
+    }
+    
+    .phone_header_class{
+        width: 1.9vw;
+    }
+    
+    .logo_footer_class{
+        width: 7.2vw;
+    }
+    
+    .clock_footer_class{
+        width: 3.2vw;
+    }
+    
+    .phone_footer_class{
+        width: 2.7vw;
+    }
+    
+    .geo_footer_class{
+        width: 3.7vw;
     }
 }
 
@@ -156,4 +78,408 @@
     .adress p{
         overflow-wrap: break-word;
     }
+    .text_agreement{
+        font-size: 1.3vw;
+    }
+    .Tym_title{
+        font-size: 1.8vw;
+    }
+    .Lev_title{
+        font-size: 1.8vw;
+    }
+
+    
 }
+
+@media(max-width: 769px){
+    
+    .text_agreement{
+    font-size: 1.9vw;
+    }
+.Tym_title{
+    font-size: 2.3vw;
+}
+.Lev_title{
+    font-size: 2.3vw;
+}
+.text_agreement{
+    font-size: 1.6vw;
+}
+.Tym_title{
+    font-size: 2.1vw;
+}
+.Lev_title{
+    font-size: 2.1vw;
+}
+/* -------- */
+.text_header{
+    font-size: 3.3vw;
+}
+.phone_numbers{
+    font-size: 2vw;
+}
+.title_agreement{
+    font-size: 4.1vw;
+}
+
+.dentist_text{
+    font-size: 3.8vw;
+}
+
+.clock_text{
+    font-size: 2vw;
+}
+.numbers{
+    font-size: 2vw;
+}
+.adress{
+    font-size: 3.1vw;
+}
+/* icons */
+.logo_header_class{
+    width: 6.1vw;
+}
+
+.phone_header_class{
+    width: 2.8vw;
+}
+
+.logo_footer_class{
+    width: 8.1vw;
+}
+
+.clock_footer_class{
+    width: 2.8vw;
+}
+
+.phone_footer_class{
+    width: 3.3vw;
+}
+
+.geo_footer_class{
+    width: 4.6vw;
+}   
+    .footer_clock_phone_container{
+        display: flex;
+        padding-left: 5%;
+        gap: 3%;
+        width: 60%;
+    }
+}
+
+@media(max-width: 631px) {
+    
+    .text_agreement{
+        font-size: 2.3vw;
+    }
+    .Tym_title{
+        font-size: 2.8vw;
+    }
+    .Lev_title{
+        font-size: 2.8vw;
+    }
+}
+
+@media(max-width: 551px) {
+    .text_header{
+        font-size: 3.8vw;
+    }
+    .phone_numbers{
+        font-size: 2.5vw;
+    }
+    .title_agreement{
+        font-size: 4.6vw;
+    }
+    
+    .dentist_text{
+        font-size: 4.3vw;
+    }
+    
+    .clock_text{
+        font-size: 2.5vw;
+    }
+    .numbers{
+        font-size: 2.5vw;
+    }
+    .adress{
+        font-size: 3.6vw;
+    }
+    /* icons */
+    .logo_header_class{
+        width: 6.6vw;
+    }
+    
+    .phone_header_class{
+        width: 3.3vw;
+    }
+    
+    .logo_footer_class{
+        width: 8.6vw;
+    }
+    
+    .clock_footer_class{
+        width: 3.3vw;
+    }
+    
+    .phone_footer_class{
+        width: 3.8vw;
+    }
+    
+    .geo_footer_class{
+        width: 5vw;
+    }   
+    .footer_clock_phone_container{
+            display: flex;
+            padding-left: 5%;
+            gap: 3%;
+            width: 70%;
+    }
+}
+
+@media(max-width: 500px) {
+    .text_header{
+        font-size: 4vw;
+    }
+    .phone_numbers{
+        font-size: 2.7vw;
+    }
+    .title_agreement{
+        font-size: 4.8vw;
+    }
+    
+    .dentist_text{
+        font-size: 4.5vw;
+    }
+    
+    .clock_text{
+        font-size: 2.7vw;
+    }
+    .numbers{
+        font-size: 2.7vw;
+    }
+    .adress{
+        font-size: 3.6vw;
+    }
+    /* icons */
+    .logo_header_class{
+        width: 6.8vw;
+    }
+    
+    .phone_header_class{
+        width: 3.5vw;
+    }
+    
+    .logo_footer_class{
+        width: 8.8vw;
+    }
+    
+    .clock_footer_class{
+        width: 3.5vw;
+    }
+    
+    .phone_footer_class{
+        width: 4vw;
+    }
+    
+    .geo_footer_class{
+        width: 5.1vw;
+    }   
+    /* .footer_clock_phone_container{
+            display: flex;
+            padding-left: 5%;
+            gap: 3%;
+            width: 70%;
+    } */
+
+    .main_text_container{
+        padding-top: 23vh;
+        display: flex;
+        width: 100%;
+    }
+
+    .main_text{
+        font-size: 11vw;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        width: 100%;
+        word-break: break-all;
+        flex-direction: column;
+    }
+    .first_word{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .second_word{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secondary_text{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 5.5vw;
+    }
+    .first_phrase{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .second_phrase{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 426px) {
+    
+    .text_agreement{
+        font-size: 2.6vw;
+    }
+    .Tym_title{
+        font-size: 3.1vw;
+    }
+    .Lev_title{
+        font-size: 3.1vw;
+    }
+
+
+    /* _______________________ */
+    .text_header{
+        font-size: 4.2vw;
+    }
+    .phone_numbers{
+        font-size: 2.9vw;
+    }
+    .title_agreement{
+        font-size: 5vw;
+    }
+    
+    .dentist_text{
+        font-size: 4.7vw;
+    }
+    
+    .clock_text{
+        font-size: 2.9vw;
+    }
+    .numbers{
+        font-size: 2.9vw;
+    }
+    .adress{
+        font-size: 3.8vw;
+    }
+    /* icons */
+    .logo_header_class{
+        width: 7vw;
+    }
+    
+    .phone_header_class{
+        width: 3.7vw;
+    }
+    
+    .logo_footer_class{
+        width: 9vw;
+    }
+    
+    .clock_footer_class{
+        width: 3.7vw;
+    }
+    
+    .phone_footer_class{
+        width: 4.2vw;
+    }
+    
+    .geo_footer_class{
+        width: 5.1vw;
+    }   
+    .footer_clock_phone_container{
+            display: flex;
+            padding-left: 5%;
+            gap: 3%;
+            width: 75%;
+    }
+}
+
+@media(max-width: 376px) {
+    
+    .text_agreement{
+        font-size: 3vw;
+    }
+    .Tym_title{
+        font-size: 3.3vw;
+    }
+    .Lev_title{
+        font-size: 3.3vw;
+    }
+}
+
+@media(max-width: 321px){
+    /* _______________________ */
+    .text_header{
+        font-size: 4.4vw;
+    }
+    .phone_numbers{
+        font-size: 3.1vw;
+    }
+    .title_agreement{
+        font-size: 5.2vw;
+    }
+    
+    .dentist_text{
+        font-size: 4.9vw;
+    }
+    
+    .clock_text{
+        font-size: 3.1vw;
+    }
+    .numbers{
+        font-size: 3.1vw;
+    }
+    .adress{
+        font-size: 3.8vw;
+    }
+    /* icons */
+    .logo_header_class{
+        width: 7.2vw;
+    }
+    
+    .phone_header_class{
+        width: 3.9vw;
+    }
+    
+    .logo_footer_class{
+        width: 9.2vw;
+    }
+    
+    .clock_footer_class{
+        width: 3.9vw;
+    }
+    
+    .phone_footer_class{
+        width: 4.4vw;
+    }
+    
+    .geo_footer_class{
+        width: 5.1vw;
+    }   
+    .footer_clock_phone_container{
+        display: flex;
+        padding-left: 5%;
+        gap: 3%;
+        width: 80%;
+}
+}
+
+@media(min-width: 320px) {
+    .bg_photo{
+        background-image: url(images/background_photo.svg);
+    }
+}
+
+
